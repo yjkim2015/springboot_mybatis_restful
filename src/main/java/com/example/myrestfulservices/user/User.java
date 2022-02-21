@@ -15,7 +15,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 //@JsonIgnoreProperties(value={"password", "ssn"})
-@JsonFilter("UserInfo")
+//@JsonFilter("UserInfo") <-- 어드민에서 필터를 쓰기 위해 사용했다
 public class User {
     private Integer id;
 
