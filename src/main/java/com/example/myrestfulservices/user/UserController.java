@@ -38,6 +38,14 @@ public class UserController {
         }
 
         // HATEOS
+        /*
+            2.1.8 RELEASE 버전 HATEOS
+            Resource ControllerLinkBuilder
+
+            2.2 그 이상
+            EntityModel WebMvcLinkBuilder
+
+         */
         Resource<User> resource = new Resource<>(user);
 
         ControllerLinkBuilder linkTo = linkTo(

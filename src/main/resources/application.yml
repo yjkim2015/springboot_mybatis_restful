@@ -9,13 +9,20 @@ logging:
 
 
 spring:
+  jpa:
+    show-sql: true
+
   messages:
     basename: messages
-  security:
-    user:
-      name: username
-      password: passw0rd
 
+  h2:
+    console:
+      enabled: true
+
+#  security:
+#    user:
+#      name: username
+#      password: passw0rd
 
 
 manaagement:
